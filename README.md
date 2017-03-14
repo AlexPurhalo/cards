@@ -3,7 +3,7 @@
     > Cards.hello
     > recompile
      
-### Instruction
+### Tuple
    Assignment in tuple
   
     { v1, v2 } = {[1, 2], [3, 4, 5]}
@@ -19,3 +19,6 @@
       V4 => "world"
      
      
+### Erlang
+    deck = Cards.create_deck   
+    Cards.save(deck, "my_deck")  
