@@ -21,4 +21,5 @@
      
 ### Erlang
     deck = Cards.create_deck   
-    Cards.save(deck, "my_deck")  
+    Cards.save(deck, "my_deck")
+    Cards.load("my_deck")
